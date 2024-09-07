@@ -1,3 +1,5 @@
+
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,6 +9,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        transformmix: ['var(--font-transform-mix)'],
+        darkgrotes: ['var(--font-transform-mix)'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
