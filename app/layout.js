@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="uk">
       <body
-        className={`${geistTransform.variable} ${geistMustica.variable} antialiased`}
+        className={`${geistTransform.variable} ${geistMustica.variable} antialiased bg-white`}
       >
         {children}
       </body>
