@@ -2,9 +2,9 @@ import Image from 'next/image';
 import baner from '../../public/baner.png';
 import banermob from '../../public/banermob.png'
 import Header from './Header';
-import localFont from 'next/font/local'
+import localFont from 'next/font/local';
  
-// Font files can be colocated inside of `app`
+
 const trans = localFont({
   src: '/TransformaMix_Trial-SemiBold.ttf',
   display: 'swap',

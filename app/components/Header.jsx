@@ -27,8 +27,8 @@ export default function Header() {
                     </div>
                 ))}
             </div>
-            <div className="flex justify-center">
-                <Logo/>
+            <div className="flex justify-center text-6xl">
+                <Logo />
             </div>
             <div className="flex justify-end">
                 <Button text={'Замовити'} className={`${dark_grotesque.className} font-extrabold py-6`}/>
