@@ -27,7 +27,7 @@ export default function AboutUs() {
         { number: '85%', text: 'зростання бізнесу'}
     ]
     return(
-        <div className=' bg-[#FFFFFF] p-[10px] lg:p-[20px] flex items-center justify-center  w-full min-h-screen '>
+        <div id='about' className=' bg-[#FFFFFF] p-[10px] lg:p-[20px] flex items-center justify-center  w-full min-h-screen '>
             <div className=' flex flex-col relative  w-full min-h-[90vh] overflow-hidden p-5 lg:p-20 gap-6 lg:gap-16'>
                 <div className='flex gap-6 lg:gap-20 min-w-10 items-start flex-col lg:flex-row'>
                     <div className='flex gap-2 items-center'>

@@ -20,14 +20,14 @@ export default function Header() {
 
     return(
         <header className={` ${dark_grotesque.className}  w-full grid grid-cols-3 px-[10px] py-[28px]  lg:p-[28px]`}>
-            <div className="flex flex-col gap-[24px] uppercase text-[#F7F5F5] text-2xl font-semibold">
+            <div className="flex flex-col gap-[24px] uppercase text-2xl font-semibold">
                 {navLinks.map((item, index) => (
-                    <div key={index}>
+                    <div key={index} className="text-white/75 hover:text-[#F7F5F5]">
                         <Link href={item.href}>{item.title}</Link>
                     </div>
                 ))}
             </div>
-            <div className="flex justify-center text-6xl">
+            <div className="flex justify-center text-6xl text-[#F7F5F5]">
                 <Logo />
             </div>
             <div className="flex justify-end">

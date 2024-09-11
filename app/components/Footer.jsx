@@ -39,10 +39,10 @@ export default function Footer() {
     ]
 
     return(
-        <div className={` ${mystica.className} bg-[#171313] text-[#F7F5F5] w-full p-5 lg:p-[60px] lg:px-[100px] flex flex-col gap-10`}>
+        <div id="contacts" className={` ${mystica.className} bg-[#171313] text-[#F7F5F5] w-full p-5 lg:p-[60px] lg:px-[100px] flex flex-col gap-10`}>
             <div>
                 <div className="flex flex-col lg:flex-row justify-between gap-10">
-                    <div className="text-[32px] flex flex-col  justify-between">
+                    <div className="text-[32px] flex flex-col text-[#F7F5F5]  justify-between">
                         <Logo/>
                         <div>
                             <h3 className="text-2xl">Комітимо мрії в реальність</h3>

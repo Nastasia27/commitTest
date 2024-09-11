@@ -30,7 +30,7 @@ export default function Cases() {
         { number: '85%', text: 'зростання бізнесу'}
     ]
     return(
-        <div className=' bg-[#FFFFFF]  flex items-center justify-center  w-full min-h-screen '>
+        <div id='cases' className=' bg-[#FFFFFF]  flex items-center justify-center  w-full min-h-screen '>
             <div className=' flex flex-col relative  w-full min-h-[90vh] overflow-hidden gap-6 lg:gap-16 pb-10'>
                 <div className='flex gap-6 lg:gap-20 min-w-10 items-start flex-col lg:flex-row p-[30px] lg:p-[100px] pb-5 lg:pb-5 '>
                     <div className='flex gap-2 items-center'>

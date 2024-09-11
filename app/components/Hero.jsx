@@ -2,6 +2,7 @@ import Image from 'next/image';
 import baner from '../../public/baner.png';
 import banermob from '../../public/banermob.png'
 import Header from './Header';
+import HeaderMob from './HeaderMob';
 import localFont from 'next/font/local';
  
 
@@ -40,6 +41,9 @@ export default function Hero() {
                 <div className="relative min-h-[95vh] flex items-end pb-20 z-10">
                         <div className='hidden md:block absolute inset-0'>
                             <Header />
+                        </div>
+                        <div className='block md:hidden absolute inset-0'>
+                            <HeaderMob />
                         </div>
                         <div className="z-20 text-[#F7F5F5] text-left px-[20px] flex flex-col gap-5 xl:px-[20px] mt-10">
                             <h1 className={`${trans.className} text-left text-[60px] lg:text-[100px] xl:text-[120px] leading-none 2xl:text-[120px]`}>
