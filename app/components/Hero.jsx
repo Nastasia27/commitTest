@@ -27,16 +27,16 @@ export default function Hero() {
                     alt="Background image"
                     placeholder="blur"
                     fill
-                    objectFit="cover"
-                    className="absolute hidden lg:block inset-0 object-top"
+                    
+                    className=" object-cover absolute hidden lg:block inset-0 object-top"
                 />
             <Image
                 src={banermob}
                 alt="Background image"
                 placeholder="blur"
                 fill
-                objectFit="cover"
-                className="absolute block lg:hidden inset-0 object-top"
+                
+                className="object-cover absolute block lg:hidden inset-0 object-top"
             />
                 <div className="relative min-h-[95vh] flex items-end pb-20 z-10">
                         <div className='hidden md:block absolute inset-0'>

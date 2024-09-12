@@ -19,7 +19,6 @@ export default function HeaderMob() {
     const handleOpen = () => {
         setMobileMenuOpen(true);
     };
-    console.log(mobileMenuOpen);
 
     return(
         <header className={` ${dark_grotesque.className} relative w-full grid grid-cols-3 px-[10px] pt-10 `}>
@@ -31,9 +30,7 @@ export default function HeaderMob() {
             <div className="flex justify-center text-3xl text-[#F7F5F5]">
                 <Logo />
             </div>
-            {/* <div className="flex justify-end">
-                <Button text={'Замовити'} className={`${dark_grotesque.className} font-extrabold py-6`}/>
-            </div> */}
+
             {mobileMenuOpen && <ModalMenu itemsMenu={navLinks} setOpenModal={setMobileMenuOpen}/>}
 
         </header>

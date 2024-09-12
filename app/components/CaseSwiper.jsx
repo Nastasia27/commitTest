@@ -30,7 +30,7 @@ export function SliderImage({item, images, image2, title, text}) {
                 height={800}
                 className='w-full h-full object-cover absolute  object-bottom'
             />  
-            <div className='z-10 h-full w-full flex flex-col'>
+            <div className='z-10  w-full flex flex-col'>
               <div className='flex justify-center'>
                 {images.map((image, index) => (
                   <div key={index} className={`relative pt-20 ${index > 0 ? 'hidden lg:block' : ''}`}>
@@ -39,15 +39,15 @@ export function SliderImage({item, images, image2, title, text}) {
                         alt='image of mac'
                         width={800}
                         height={500}
-                        className='w-[300px] h-[200px] xl:w-[500px] xl:h-[380px] object-fill'
+                        className='w-[300px] h-[200px] xl:w-[450px] xl:h-[330px] object-fill'
                     /> 
-                    <div className='absolute top-[85px] left-[60px] lg: xl:top-[83px] xl:left-[97px] w-full'>
+                    <div className='absolute top-[85px] left-[60px] lg: xl:top-[90px] xl:left-[90px] w-full'>
                       <Image 
                           src={image}
                           alt='image of mac'
                           width={800}
                           height={500}
-                          className='w-[230px] h-[125px] xl:w-[394px] xl:h-[244px] object-fill '
+                          className='w-[230px] h-[125px] xl:w-[350px] xl:h-[205px] object-fill '
                       /> 
 
                     </div>
@@ -143,7 +143,7 @@ export default function CaseSwiper() {
                   >
                   </motion.div>
                   <motion.div
-                      className="h-full bg-[#E3000B] rounded-full lg:w-64 z-10"
+                      className="h-6 bg-[#E3000B] rounded-full lg:w-64 z-10"
                       animate={{ width: `${progress * 100}%`}}
                       transition={{type: "spring", stiffness: 50 }}
                     />

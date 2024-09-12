@@ -72,7 +72,7 @@ export default function Footer() {
                 <div className="flex gap-5">
                     {socialLinks.map((item, index) => (
                         <Link key={index} href={item.link}>
-                            <Image src={item.icon}/>
+                            <Image src={item.icon} alt="social icon"/>
                         </Link>
                         
                     ))}
